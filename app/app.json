@@ -18,9 +18,9 @@
       [
         "@sentry/react-native/expo",
         {
-          "url": "https://sentry.shuchir.dev/",
-          "project": "hcgateway-app",
-          "organization": "sentry"
+          "url": "https://sentry.io/",
+          "project": "hc",
+          "organization": "home-94w"
         }
       ],
       "@react-native-firebase/app",

@@ -42,7 +42,7 @@ get('sentryEnabled')
   .then(res => {
     if (res != "false") {
       Sentry.init({
-        dsn: 'https://e4a201b96ea602d28e90b5e4bbe67aa6@sentry.shuchir.dev/6',
+        dsn: 'https://f89dc696baf1e852f528f103f0d43b60@o4509037993590784.ingest.de.sentry.io/4509037996212304',
         // enableSpotlight: __DEV__,
       });
       Toast.show({
@@ -88,7 +88,7 @@ messaging().onMessage(remoteMessage => {
 });
 
 let login;
-let apiBase = 'https://api.hcgateway.shuchir.dev';
+let apiBase = 'https://hc.h.microcloud.dev';
 let lastSync = null;
 let taskDelay = 7200 * 1000; // 2 hours
 
@@ -554,7 +554,7 @@ export default function App() {
               onValueChange={async (value) => {
               if (value) {
                 Sentry.init({
-                dsn: 'https://e4a201b96ea602d28e90b5e4bbe67aa6@sentry.shuchir.dev/6',
+                dsn: 'https://f89dc696baf1e852f528f103f0d43b60@o4509037993590784.ingest.de.sentry.io/4509037996212304',
                 });
                 Toast.show({
                 type: 'success',
@@ -642,7 +642,7 @@ export default function App() {
               onValueChange={async (value) => {
                 if (value) {
                   Sentry.init({
-                    dsn: 'https://e4a201b96ea602d28e90b5e4bbe67aa6@sentry.shuchir.dev/6',
+                    dsn: 'https://f89dc696baf1e852f528f103f0d43b60@o4509037993590784.ingest.de.sentry.io/4509037996212304',
                   });
                   Toast.show({
                     type: 'success',

@@ -1,29 +1,29 @@
 {
-    "project_info": {
-      "project_number": "1047860968893",
-      "project_id": "hcgateway-fcm",
-      "storage_bucket": "hcgateway-fcm.appspot.com"
-    },
-    "client": [
-      {
-        "client_info": {
-          "mobilesdk_app_id": "1:1047860968893:android:6fdf29797dda6c99dde6d4",
-          "android_client_info": {
-            "package_name": "dev.shuchir.hcgateway"
-          }
-        },
-        "oauth_client": [],
-        "api_key": [
-          {
-            "current_key": "AIzaSyDFy0mrwlLwAXUmhQqjsUg8PHDtIuiSgzI"
-          }
-        ],
-        "services": {
-          "appinvite_service": {
-            "other_platform_oauth_client": []
-          }
+  "project_info": {
+    "project_number": "881829782544",
+    "project_id": "hcgateway-6e60b",
+    "storage_bucket": "hcgateway-6e60b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881829782544:android:7d0813977f4a0bad7d1695",
+        "android_client_info": {
+          "package_name": "dev.shuchir.hcgateway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD23eMR2R23BJJowqBrrjADQp5vsmt545s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
-    ],
-    "configuration_version": "1"
-  }
+    }
+  ],
+  "configuration_version": "1"
+}
